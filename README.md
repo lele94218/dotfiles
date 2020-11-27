@@ -73,4 +73,21 @@ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 vim init.vim
 ```
 
-Skip error messages then type `:`
+Skip error messages then type `:PluginInstall` and everything will be installed.
+
+Then still remain some plugin to fix.
+
+### Fzf
+
+```
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+~/.fzf/install
+sudo apt install fd-find
+```
+
+### Tmux
+
+```
+sudo apt install tmux
+ln -s ~/works/dotfiles/tmux/.tmux.conf ~/.tmux.conf
+```
