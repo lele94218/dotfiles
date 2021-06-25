@@ -25,13 +25,13 @@ Install auto suggestions, please. Remember you're lazy, I don't know what is `Ct
 See: https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh
 
 ```sh
-works git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 ```
 
 Then, use the magic config file.
 
 ```
-ln ~/works/dotfiles/zsh/.zshrc ~/.zshrc
+ln -s ~/works/dotfiles/zsh/.zshrc ~/.zshrc
 ```
 
 ## Neo-vim
