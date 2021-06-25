@@ -64,7 +64,7 @@ Then, use nvim config file.
 cd ~/.config
 mkdir nvim
 cd nvim
-ln ~/works/dotfiles/nvim/init.vim init.vim
+ln -s ~/works/dotfiles/nvim/init.vim init.vim
 ```
 
 Let's fix missing plugins. First install Vundle see: 
